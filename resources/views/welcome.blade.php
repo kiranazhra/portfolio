@@ -306,13 +306,12 @@
               Lihat Proyek
               <i data-lucide="arrow-right" class="w-4 h-4"></i>
             </a>
-            <a href="#" download class="magnetic-btn flex text-sm font-medium text-white bg-white/5 hover:bg-white/10 border border-white/10 transition-colors rounded-full px-6 py-3 gap-2 items-center">
+            <a href="{{ asset('doc/CV Kirana Aulia Zahra.pdf') }}" download class="magnetic-btn flex text-sm font-medium text-white bg-white/5 hover:bg-white/10 border border-white/10 transition-colors rounded-full px-6 py-3 gap-2 items-center">
               <i data-lucide="download" class="w-4 h-4"></i>
               Unduh CV
             </a>
           </div>
 
-          <!-- GANTI href="#" pada tombol "Unduh CV" di atas dengan path file CV kamu, misalnya "cv-kirana.pdf" -->
         </div>
 
         <div class="relative flex items-center justify-center">
@@ -520,6 +519,8 @@
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/flutter/54C5F8" alt="">Flutter</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="">MySQL</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="">Figma</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-capcut.png') }}" alt="">CapCut</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-excel.png') }}" alt="">Excel</span>
               </div>
               <div class="marquee-group" aria-hidden="true">
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="">HTML</span>
@@ -530,6 +531,8 @@
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/flutter/54C5F8" alt="">Flutter</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="">MySQL</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="">Figma</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-capcut.png') }}" alt="">CapCut</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-excel.png') }}" alt="">Excel</span>
               </div>
             </div>
           </div>
@@ -545,6 +548,8 @@
                 <span class="tech-chip"><img src="{{ asset('img/logo-canva.png') }}" alt="">Canva</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="">Tailwind</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/github/181717" alt="">GitHub</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-word.png') }}" alt="">Word</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-powerpoint.png') }}" alt="">PowerPoint</span>
               </div>
               <div class="marquee-group" aria-hidden="true">
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/python/3776AB" alt="">Python</span>
@@ -555,6 +560,8 @@
                 <span class="tech-chip"><img src="{{ asset('img/logo-canva.png') }}" alt="">Canva</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="">Tailwind</span>
                 <span class="tech-chip"><img src="https://cdn.simpleicons.org/github/181717" alt="">GitHub</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-word.png') }}" alt="">Word</span>
+                <span class="tech-chip"><img src="{{ asset('img/logo-powerpoint.png') }}" alt="">PowerPoint</span>
               </div>
             </div>
           </div>
